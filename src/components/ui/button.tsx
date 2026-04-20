@@ -50,11 +50,13 @@ function Button({
 }: ButtonPrimitive.Props & VariantProps<typeof buttonVariants> & { asChild?: boolean }) {
   if (asChild) {
     const { children, ...rest } = props as any;
+    const isButton = React.isValidElement(children) && children.type === "button";
     return (
       <ButtonPrimitive
         data-slot="button"
         className={cn(buttonVariants({ variant, size, className }))}
         render={children as React.ReactElement}
+        nativeButton={isButton}
         {...rest}
       />
     )
