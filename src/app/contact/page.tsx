@@ -23,8 +23,8 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "hello@troyolalo.dev",
-    href: "mailto:hello@troyolalo.dev",
+    value: "troymanuelo@gmail.com",
+    href: "mailto:troymanuelo@gmail.com",
   },
   {
     icon: MapPin,
@@ -41,9 +41,9 @@ const contactInfo = [
 ];
 
 const socialLinks = [
-  { icon: Code2, label: "GitHub", href: "https://github.com" },
-  { icon: Briefcase, label: "LinkedIn", href: "https://linkedin.com" },
-  { icon: MessageCircle, label: "Twitter / X", href: "https://twitter.com" },
+  { icon: Code2, label: "GitHub", href: "https://github.com/aewan1214" },
+  { icon: Briefcase, label: "LinkedIn", href: "https://www.linkedin.com/in/taolalo1214/" },
+  { icon: MessageCircle, label: "Twitter / X", href: "https://x.com/trulaloooo" },
 ];
 
 export default function ContactPage() {

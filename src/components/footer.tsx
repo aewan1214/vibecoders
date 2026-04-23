@@ -5,10 +5,10 @@ import { Code2, Briefcase, MessageCircle, Mail, Heart } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 
 const socialLinks = [
-  { icon: Code2, href: "https://github.com", label: "GitHub" },
-  { icon: Briefcase, href: "https://linkedin.com", label: "LinkedIn" },
-  { icon: MessageCircle, href: "https://twitter.com", label: "Twitter" },
-  { icon: Mail, href: "mailto:hello@troyolalo.dev", label: "Email" },
+  { icon: Code2, href: "https://github.com/aewan1214", label: "GitHub" },
+  { icon: Briefcase, href: "https://www.linkedin.com/in/taolalo1214/", label: "LinkedIn" },
+  { icon: MessageCircle, href: "https://x.com/trulaloooo", label: "Twitter" },
+  { icon: Mail, href: "mailto:troymanuelo@gmail.com", label: "Email" },
 ];
 
 const footerLinks = [
@@ -30,8 +30,7 @@ export default function Footer() {
           <div className="space-y-4">
             <h3 className="text-xl font-bold gradient-text">Troy.</h3>
             <p className="max-w-xs text-sm leading-relaxed text-muted-foreground">
-              Vibe Coder Specialist crafting modern, scalable, and beautifully
-              designed web experiences.
+              Mining Engineer, GIS Analyst, and Aspiring AI Specialist
             </p>
           </div>
 
