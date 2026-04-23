@@ -2,6 +2,16 @@ import type { Project } from "@/components/featured-projects";
 
 export const projects: Project[] = [
   {
+    title: "TactiChess",
+    description:
+      "A hybrid chess and tic-tac-toe web game featuring deployment and movement phases, with custom win conditions and animated mechanics.",
+    image: "/project-tactichess.png",
+    tags: ["React", "TypeScript", "Vite", "Tailwind CSS"],
+    liveUrl: "https://tactichess.vercel.app/",
+    githubUrl: "https://github.com",
+    featured: true,
+  },
+  {
     title: "Analytics Dashboard",
     description:
       "A real-time analytics dashboard for SaaS products with interactive charts, data visualization, and team collaboration features.",

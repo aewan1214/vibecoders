@@ -66,8 +66,8 @@ export default function CTASection() {
                 size="lg"
                 className="rounded-full border-border/60 px-8 text-base transition-all duration-300 hover:border-primary/50 hover:bg-primary/5"
               >
-                <a href="mailto:hello@troyolalo.dev">
-                  hello@troyolalo.dev
+                <a href="mailto:troymanuelo@gmail.com">
+                  troymanuelo@gmail.com
                 </a>
               </Button>
             </div>
